@@ -23,12 +23,11 @@ h2:hover{
 .ball{
     border-radius: 50%;
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-top: 50px;
     animation-name: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 7s;
   }
 #red{
     background: red;
@@ -37,7 +36,7 @@ h2:hover{
 }
 @keyframes bounce {
    from {left: 0px;}
-   to {left: 200px;}
+   to {left: 500px;}
   }
 #h2{
     border-style: inset;
